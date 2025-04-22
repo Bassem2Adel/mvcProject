@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imges/home.jpg" type="image/x-icon">
+    <title>Ticket Booking </title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-danger" href="#">Ticket Booking</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-danger" aria-current="page" href="./index.html">Home</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="./Flight Status.html">Flight Status</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="./My Booking.html">My Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="./Book.html">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="./Online Check-in.html">Online Check-in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" href="./Menu.html">Menu</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="flight-booking mb-5 mt-5">
+        <div class="header">
+          <span class="back-arrow">&#8592;</span>
+          <h2>Book a Flight</h2>
+        </div>
+    
+        <div class="city-selection">
+          <div class="city">
+            <span class="icon">✈️</span>
+            <label for="from-city">From</label>
+            <select id="from-city">
+              <option value="">Select City</option>
+              <option>Cairo</option>
+              <option>Jeddah</option>
+              <option>Dubai</option>
+            </select>
+          </div>
+          <div class="switch-icon">🔁</div>
+          <div class="city">
+            <span class="icon">🛬</span>
+            <label for="to-city">To</label>
+            <select id="to-city">
+              <option value="">Select City</option>
+              <option>Riyadh</option>
+              <option>Beirut</option>
+              <option>Istanbul</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="form-section mb-5">
+          <label for="trip-type">Trip Type</label>
+          <select id="trip-type">
+            <option>Round Trip</option>
+            <option>One Way</option>
+          </select>
+    
+          <label for="departure">Departure Date</label>
+          <input type="date" id="departure">
+    
+          <label for="return">Return Date</label>
+          <input type="date" id="return">
+    
+          <label for="passengers">How Many Passengers</label>
+          <select id="passengers">
+            <option>1 Passenger</option>
+            <option>2 Passengers</option>
+            <option>3 Passengers</option>
+          </select>
+    
+          <button class="book-btn mb-5 pb-5">Book Now</button>
+        </div>
+      </div>
+      <footer class=" fixed-bottom bg-dark text-danger mt-5 ">
+        <div class="footer bg-dark text-center">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" class="text-decoration-none" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/"class="text-decoration-none" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="https://www.youtube.com/"class="text-decoration-none" target="_blank"><i class="fa-brands fa-square-youtube fa-2x"></i></a>
+            <div class="f2 text-center">
+               
+                <h3 class="text-center bg-dark "> <i class="fa-solid fa-phone  "></i> 01212587858</h3>
+                <h3>My Project 2025 MVC</h3>
+                <h3>Abanoub Bassem Ahmed</h3>
+            </div>
+        
+        </div>
+        </footer>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/styel.js"></script>
+</body>
+</html>
